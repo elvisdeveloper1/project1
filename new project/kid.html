@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEN</title>
+    <style>
+     *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body
+      {
+        background-color:#f4f4f9;
+        color:  #ece4e4;
+        line-height: 2rem;
+      }
+      header
+      {
+        background-color: #2a0487;
+        position: fixed;
+        width: 100%;
+        align-items: center;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.01rem 3rem;
+      }
+      nav
+      {
+        display: flex;
+        gap: 15px;
+      }
+      nav a
+      {
+        text-decoration: none;
+        color: white;
+        border-radius: 3px;
+        padding: 8px;
+      }
+      nav a:hover
+      {
+        background-color:  #ff6347;
+      }
+     
+      .Product
+      {
+        padding: 2rem;
+        text-align: center;
+      }
+      .Product h2
+      {
+        font-size: 2rem;
+        color: black;
+        margin-bottom: 1.5rem;
+      }
+      .Product-grid
+      {
+        float: left;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(6,1fr));
+        gap: 1.5rem;
+        width: 200px;
+        padding: 30px;
+        
+      }
+      .Product-card
+      {
+       padding: 10px;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 8px 16px rgba(4, 4, 4, 0.478);
+        transition: transform 0.3s, box-shadow 0.3s;
+        text-align: center;
+        height: 330px;
+      }
+      .Product-card:hover
+      {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 24px rgb(5, 0, 0);
+      }
+      .Product-card img
+      {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+      .Product-card-content
+      {
+        padding: 1rem;
+        text-align: center;
+      }
+      .Product-card h3
+      {
+        font-size: 1.4rem;
+        color: black;
+        margin-bottom: 0.3rem;
+      }
+      .Product-card p
+      {
+        font-size: 1.1rem;
+        color: gray;
+      }
+      .Product-card.price
+      {
+        font-size: 1.3rem;
+        margin-top: 0.5rem;
+      }
+      .Product-card button
+      {
+        background-color: red;
+        color: white;
+        margin-top: 1rem;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      .Product-card button:hover
+      {
+        background: linear-gradient(to right,blue,orange);
+      }
+     .foot
+     {
+       background-color: green;
+       color: green;
+       width: 100%;
+       height: 50px;
+       text-align: center;
+       margin-top: 1120px;
+     }
+
+</style>
+<body>
+    <header> 
+        <h1>E-Commerce Store</h1>
+         <img src="images.jpg" style="width: 220px;">
+         <nav>
+             <a href="home.html">Home</a>
+             <a href="computer.html">computer</a>
+            <a href="men.html">Men</a>
+             <a href="women.html">Women</a>
+             <a href="kid.html">Kids</a>
+             <a href="contact us.html">Contact Us</a>
+         </nav>
+     </header>
+<div class="Product-grid">
+    <div class="Product-card">
+      <img src="KID (1).jpeg" alt="shoes">
+      <div class="Product-card-content">
+        <h3><I>t-shirt</I></h3>
+        <p class="price">$49.99</p>
+        <button type="button"5>Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="Product-grid">
+    <div class="Product-card">
+      <img src="KID (1).jpeg" alt="shoes">
+      <div class="Product-card-content">
+        <h3><I>valez</I></h3>
+        <p class="price">$49.99</p>
+        <button type="button"5>Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="Product-grid">
+    <div class="Product-card">
+      <img src="KID (2).jpeg" alt="shoes">
+      <div class="Product-card-content">
+        <h3><i>t-shirt&short</i></h3>
+        <p class="price">$49.99</p>
+        <button type="button"5>Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="Product-grid">
+    <div class="Product-card">
+      <img src="KID (3).jpeg" alt="shoes">
+      <div class="Product-card-content">
+        <h3>t=t-shirt</h3>
+        <p class="price">$49.99</p>
+        <button type="button"5>Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="Product-grid">
+    <div class="Product-card">
+      <img src="KID (4).jpeg" alt="shoes" style="height: 200px;">
+      <div class="Product-card-content">
+        <h3>shirt</h3>
+        <p class="price">$49.99</p>
+        <button type="button"5>Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="Product-grid">
+    <div class="Product-card">
+      <img src="KID (5).jpeg" alt="shoes">
+      <div class="Product-card-content">
+        <h3>t-shirt</h3>
+        <p class="price">$49.99</p>
+        <button type="button"5>Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="Product-grid">
+    <div class="Product-card">
+      <img src="KID (6).jpeg" alt="shoes">
+      <div class="Product-card-content">
+        <h3>shop t-shirt</h3>
+        <p class="price">$49.99</p>
+        <button type="button"5>Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="Product-grid">
+    <div class="Product-card">
+      <img src="KID (7).jpeg" alt="shoes">
+      <div class="Product-card-content">
+        <h3>kid dripp</h3>
+        <p class="price">$49.99</p>
+        <button type="button"5>Add to cart</button>
+      </div>
+    </div>
+  </div>
+ 
+</section>
+</body>
+</html>
